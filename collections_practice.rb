@@ -16,8 +16,6 @@ end
 
 def swap_elements(array)
   array.sort do |a, b|
-    if a == array[1]
-      1
-    end
+    1 if a == array[1]
   end
 end
