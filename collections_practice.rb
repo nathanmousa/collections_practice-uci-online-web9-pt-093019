@@ -16,7 +16,7 @@ end
 
 def swap_elements(array)
   array.sort do |a, b|
-    if a == array.first
+    if a == array[2]
       -1
     elsif a == b
       0
