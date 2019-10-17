@@ -19,6 +19,6 @@ def swap_elements(array)
   array
 end
 
-def kesha_maker
+def kesha_maker(array)
   
 end
