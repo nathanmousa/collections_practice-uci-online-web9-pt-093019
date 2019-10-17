@@ -36,5 +36,7 @@ def find_a(array)
 end
 
 def sum_array(array)
-  array.find_all { |x| x[0] == "a" }
+  sum = 0
+  
+  
 end
