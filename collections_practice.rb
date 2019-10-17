@@ -19,7 +19,7 @@ def swap_elements(array)
     if a == array[1]
       1
     elsif a == b
-    
+      0
     end
   end
 end
