@@ -37,7 +37,12 @@ end
 
 def sum_array(array)
   sum = 0
-  
+  array.each { |x| sum += x.to_i }
+  sum
+end
+
+def sum_array(array)
+  sum = 0
   array.each { |x| sum += x.to_i }
   sum
 end
