@@ -23,5 +23,6 @@ def swap_elements(array)
     elsif a < b
       -1
     elsif a > b
+      1
   end
 end
