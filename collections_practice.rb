@@ -42,7 +42,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.collect do |x|
+  array.map do |x|
     if array[1] == x
       x
     else
